@@ -1,7 +1,8 @@
 # proyecto010V 
 creacion de sitio web Semestral 
 
-Integrado : Everette Moya 
+Integrado : 
+-Everette Moya
 - 
 - 
 - 
