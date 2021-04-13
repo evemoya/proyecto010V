@@ -2,7 +2,7 @@
 creacion de sitio web Semestral 
 
 Integrado : 
--Everette Moya
-- 
+- Everette Moya
+- Mauricio Gabler
 - 
 - 
