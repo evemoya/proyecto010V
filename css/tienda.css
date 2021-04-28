@@ -1,4 +1,4 @@
-**{
+*{
     margin: 0%;
     padding: 0%;
     
@@ -145,18 +145,21 @@
 .info-prod{
     width: 25%;
     padding: 10px;
-    border: solid red 2px;
+    border: solid #ffa700 2px;
     color: white;
-    display: wrap;
+    background-color: rgba(34, 34, 34, 0.9);
 }
 
 .btn-tienda{
-    margin-top: 40px;
+    margin: 10px auto;
+    padding: 5px;   
     background: #333;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 /**FIN IMAGEN DESPLEGABLE  */
@@ -208,3 +211,8 @@
     }
     
 }
+
+
+
+
+
