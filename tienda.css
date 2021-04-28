@@ -145,18 +145,21 @@
 .info-prod{
     width: 25%;
     padding: 10px;
-    border: solid red 2px;
+    border: solid #ffa700 2px;
     color: white;
-    display: wrap;
+    background-color: black;
 }
 
 .btn-tienda{
-    margin-top: 40px;
+    margin: 10px auto;
+    padding: 5px;   
     background: #333;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 /**FIN IMAGEN DESPLEGABLE  */
