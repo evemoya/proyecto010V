@@ -68,6 +68,10 @@ footer .footer-pie img{
     
 }
 
+.redes a {
+    text-decoration: none;
+}
+
 /*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
 /*
 @media screen and (max-width: 1220px){
