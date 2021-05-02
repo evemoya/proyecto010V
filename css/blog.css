@@ -1,9 +1,10 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     
     
 }
+
 
 #blog h3, h4{
     text-align: center;
@@ -15,7 +16,6 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 15px;
-    
     
 }
 
