@@ -140,21 +140,46 @@
 
 
 
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL  IPHONE SE5 */
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 1000px){
+
+    .info-prod{
+        width: 100%;
+    }
+
+    .light-box img{
+        width: 40%;
+    }
+
+
+}
+@media screen and (max-width: 600px){
     .contenido-tienda,
     .prod {
-        width: 80%;
-        height: 80%;
+        margin: 10;
         vertical-align: top ;
         object-fit: cover;
         position: inherit;
     
     }
-
+    .light-box img{
+        display: none;
+    }
 
 }
 
+@media screen and (max-width: 350px){
 
+
+    .prod{
+        height: 150px;
+        object-fit: contain;
+        position: inherit;
+        
+    }
+}
+
+/* FIN RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL  IPHONE SE5 */
 
