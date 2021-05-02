@@ -79,7 +79,7 @@
     margin: 30px 0;
 }
 
-.img-sucu {
+.img-sucu-maipu {
     width: 80%;
     height: 100vh;
     margin: auto;
@@ -88,6 +88,37 @@
     background-attachment: fixed;
 
 }
+
+.img-sucu-nunoa{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background: url(../img/cortes_y_mas/sucursal2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.img-sucu-palto{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background: url(../img/cortes_y_mas/sucursal3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.img-sucu-santiago{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background: url(../img/cortes_y_mas/sucursal4.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 
 /*Equipo*/
 
