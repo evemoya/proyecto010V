@@ -52,8 +52,9 @@ h3{
 .info-servicio img{
     width: 550px;
     height: 350px;
-    margin-left: 70%;
-    display: flex;
+    float: right;
+    /*margin-left: 70%;
+    display: flex;*/
     
     
     
@@ -65,8 +66,18 @@ h3{
     justify-content: center;
 }
 
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+@media (max-width: 551px){
+    .info-servicio img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
 
+    }
+}
+
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+/*
 @media screen and (max-width: 1220px){
     
     
@@ -74,7 +85,7 @@ h3{
     .parrallax
     .info-servicio,
     .parrallax-2,
-    .info-servicio2,
+    .info-servicio2
     .footer-pie
     {
         max-width: 1000px;
@@ -135,3 +146,4 @@ h3{
 
     
 }
+*/

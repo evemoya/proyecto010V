@@ -7,13 +7,15 @@
 @import url(quienes_somos.css);
 @import url(servicios.css);
 @import url(informaciones.css);
+@import url(banner_sucursal.css);
+@import url(barbers.css);
 
 
 
 *{
     margin: 0%;
     padding: 0%;
-    
+    /*box-sizing: border-box*/;
     
 }
 
@@ -31,19 +33,18 @@ h1{
 }
 
 .contenedor {
-    
-    width: 98%;
-    margin: auto;
+    width: fit-content;
 
 }
 
 #contenedor-logo-principal{
+    width: fit-content;
     display: flex;
     align-items: center;
     
     
 }
-#contenedor-logo-principal >img{
+#contenedor-logo-principal > img{
     width: 50px;
     margin-left: 10px;
 }
@@ -53,12 +54,10 @@ h1{
 footer .footer-pie{
    
     text-align: center;
-    padding: center;
+    /*padding: center;*/
     color: seashell;
     font-family: 'New Tegomin', serif;
     background: rgb(17, 16, 16);
-    margin-right: auto;
-    margin-left: auto;
       
 }
 footer .footer-pie img{
@@ -70,7 +69,7 @@ footer .footer-pie img{
 }
 
 /*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
-
+/*
 @media screen and (max-width: 1220px){
     
     .contenedor-logo-principal,
@@ -81,7 +80,7 @@ footer .footer-pie img{
     .footer-pie
     {
         max-width: 1000px;
-        padding: 0 20px; 
+        padding: 0 20px;
     }
 
 
@@ -130,5 +129,5 @@ footer .footer-pie img{
 
 }
 
-
+*/
 

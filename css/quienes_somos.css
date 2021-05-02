@@ -41,14 +41,24 @@
     margin: 15px;
     
 }
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
 
+
+
+@media (max-width: 562px){
+    #quienes_somos img {
+        width: 100%;
+    }
+}
+
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+/*
 @media screen and (max-width: 1220px){
     
     .banner,
     .bienvenida,
     .sucursal,
-    .quienes_somos,
+    .quienes_somos
     .footer-pie
     {
         max-width: 1000px;
@@ -92,3 +102,4 @@
 
     
 }
+*/
