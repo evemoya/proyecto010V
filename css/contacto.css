@@ -13,7 +13,7 @@ body{
 }
 .form-re {
     width: 400px;
-    background-color: rgb(6, 6, 42,0.8);
+    background-color: black;
     padding: 30px;
     margin: auto;
     margin-top: 30px;
@@ -33,14 +33,14 @@ body{
 
 .controls {
     width: 100%;
-    background: rgb(5, 5, 59,0.5);
+    background: white;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid white;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: gray;
 
 }
 
@@ -84,8 +84,11 @@ body{
 
 .op  {
     border-radius: 5px;
-    color: white;
-    background: rgb(5, 5, 59, 0.5);
+    color: gray;
+    background: white;
+    height: 50px;
+    width: 100%;
+    
     
 
    
