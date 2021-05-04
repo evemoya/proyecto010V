@@ -1,9 +1,6 @@
 *{
     margin: 0%;
-    padding: 0%;
-    
-    
-    
+    padding: 0%; 
 }
 
 #galeria-tienda .contenido h3, h4{
@@ -51,12 +48,12 @@
 
 
 /*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
-
+/*
 @media screen and (max-width: 1220px){
     
     .banner,
     .bienvenida,
-    .galeria-tienda,
+    .galeria-tienda
     .footer-pie
     {
         max-width: 1000px;
@@ -98,7 +95,7 @@
     
 }
 
-
+*/
 
 
 

@@ -23,12 +23,12 @@
 }
 
 /*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
-
+/*
 @media screen and (max-width: 1220px){
     
     .bienvenida,
     .blog,
-    .info,
+    .info
     .footer-pie
     {
         max-width: 1000px;
@@ -76,3 +76,4 @@
         
     }
 }
+*/
