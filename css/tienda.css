@@ -6,6 +6,11 @@
     
 }
 
+#dolar, button{
+    display: flex;
+    justify-content: center;
+}
+
 #galeria-tienda .contenido h3, h4{
     text-align: center;
     text-decoration: none;
