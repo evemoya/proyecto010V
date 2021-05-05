@@ -36,11 +36,10 @@
 }
 
 .banner .contenedor{
-
     position: absolute;
     top: 250px;
     padding: 10px;
-    /*left: 50px;*/
+    left: 50px;
     color: white;
     font-family: 'New Tegomin', serif;  
     
@@ -65,7 +64,7 @@
     width: fit-content;
     margin-top: 15px;
     display: block;
-    /*width: 150px;*/
+    width: 150px;
     padding: 10px;
     border: solid 3px white; 
     text-decoration: none;
