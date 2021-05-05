@@ -9,6 +9,7 @@
 @import url(informaciones.css);
 @import url(banner_sucursal.css);
 @import url(barbers.css);
+@import url(estilos2.css);
 
 
 
@@ -85,66 +86,5 @@ footer .footer-pie img{
     text-decoration: none;
 }
 
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
-/*
-@media screen and (max-width: 1220px){
-    
-    .contenedor-logo-principal,
-    .banner,
-    .bienvenida,
-    .blog,
-    .info,
-    .footer-pie
-    {
-        max-width: 1000px;
-        padding: 0 20px;
-    }
 
-
-}
-
-@media screen and (max-width: 1024px){
-    
-    .banner
-    .blog,
-    .info{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-
-
-
-}
-
-@media screen and (max-width: 800px){
-    
-    .banner
-    .blog,
-    .info{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-    .p{
-        flex-direction: column;
-    }
-    footer .footer-pie img{
-        padding: auto;
-        width: 55px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        
-        
-        
-    }
-
-
-
-}
-
-*/
 
