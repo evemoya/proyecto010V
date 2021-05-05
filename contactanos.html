@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/agendarhora.css">
+    <link rel="stylesheet" href="css/contactanos.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
 
 
@@ -32,6 +32,7 @@
                 <a href="iniciosesion.html">Inicia sesion</a>
                 <a href="registrate.html">Registrate</a>
                 <a href="contactanos.html">Contactanos</a>
+
 
 
             </nav>
@@ -58,59 +59,24 @@
 
 
             </div>
-            <section id="bienvenida">
-                <h2>Agenda tu hora con nosotras y evita esperas</h2>
-            </section>
-
-
             <section class="form-re" >
                 <article>
-                    <h4>Agenda tu hora</h4>
+                    <h4>Formulario de contacto</h4>
                     <form action="" method="">
+                        <input class="nombre" type="text" name="textNombre " id="Nombre"placeholder="Nombre" required pattern="[a-z A-Z]+" >
+                        <input class="apellido" type="text" name="textNombre " id="Nombre"placeholder="Apellido" required pattern="[a-z A-Z]+" >
+                        <input class="controls" type="email" name="txtEmail" id="Email" placeholder="Email" required="">
+                        <textarea class="text-area" name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba aquí su comentario..."></textarea>
+                        <input class="botons" type="button" value="Enviar" 
+                        onclick="enviar()">
+                        
 
-                        <input class="controls" type="date" name="" id="" required="">
-                        <input class="controls" type="time" name="" id=""required="">
-                     
-                       <center>
-                        <select class="op" name="" id="">
-                            <option value="" disabled selected>Seleccione un Barbero</option>
-                            <optgroup label="Team Black Stone: Maipu">
-                                <option value="">Natu</option>
-                                <option value="">Fefa</option>
-                                <option value="">Aly Estrella</option>
-                                <option value="">Mily Rockabilly</option>
-                            </optgroup>
-
-                            <optgroup label="Team Black Stone: Ñuñoa">
-                            <option value="">Kothe</option>
-                            <option value="">Pandy</option>
-                            <option value="">Pachy</option>
-                            </optgroup>
-
-                            <optgroup label="Team Black Stone: Puente Alto">
-                                <option value="">Carla</option>
-                                <option value="">Max</option>
-                                <option value="">Edward</option>
-                            </optgroup>
-
-                            <optgroup label="Team Black Stone: Santiago">
-                                <option value="">Sova</option>
-                                <option value="">Sage</option>
-                                <option value="">Nami</option>
-                            </optgroup>
-                        </select>
-                        </center>
-
-                        <input class="botons" type="button" value="Agendar" onclick="agendar()">
-                        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a> </p>
-                        <p> ¿Ya tienes cuenta? <a href="iniciosesion.html"> Inicia sesión </a></p>
                     </form>
                    
                 </article>
                 
 
             </section>
-
 
 
 
@@ -144,10 +110,11 @@
 
         </footer>
 
-        <script src="js/main.js"></script>
+        
 
 
     </div>
+    <script src="js/main.js"></script>
 
 </body>
 

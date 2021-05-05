@@ -46,3 +46,23 @@ function openCard($card) {
         });
 
 }
+
+    
+    
+function enviar(){
+   alert('Su comentario a sido enviado exitosamente')
+}
+
+function agendar(){
+    alert('Su hora fue agendada exitosamente')
+ }
+ function sesion(){
+    alert('Inicio sesión correctamente')
+ }
+
+ function registro(){
+    alert('Su registro fue exitoso')
+ }
+
+
+
