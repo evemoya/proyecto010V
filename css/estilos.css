@@ -16,11 +16,13 @@
     margin: 0%;
     padding: 0%;
     /*box-sizing: border-box*/;
-    
-}
+ }
+
+
 body{
     background: rgb(17, 16, 16);
-}
+
+
 
 
 header{
@@ -62,10 +64,12 @@ footer .footer-pie{
     /*padding: center;*/
     color: seashell;
     font-family: 'New Tegomin', serif;
+
     background-image: url(../img/cortes_y_mas/mennu2.jpg);
     justify-content: center;
     align-items: center;
     
+
       
 }
 footer .footer-pie img{
