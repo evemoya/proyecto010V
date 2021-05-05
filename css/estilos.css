@@ -16,8 +16,13 @@
     margin: 0%;
     padding: 0%;
     /*box-sizing: border-box*/;
-    
-}
+ }
+
+
+body{
+    background: rgb(17, 16, 16);
+
+
 
 
 header{
@@ -47,23 +52,31 @@ h1{
 #contenedor-logo-principal > img{
     width: 50px;
     margin-left: 10px;
+    background: transparent;
 }
 
 
 
 footer .footer-pie{
+    
    
     text-align: center;
     /*padding: center;*/
     color: seashell;
     font-family: 'New Tegomin', serif;
-    background: rgb(17, 16, 16);
+
+    background-image: url(../img/cortes_y_mas/mennu2.jpg);
+    justify-content: center;
+    align-items: center;
+    
+
       
 }
 footer .footer-pie img{
     padding: 5px;
     width: 55px;
     height: 50px;
+    
     
     
 }

@@ -64,6 +64,11 @@ body{
     
 }
 
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+/*
+@media screen and (max-width: 1220px){
+ 
 .form-re .botons {
     width: 100%;
     background: darkred;
@@ -73,7 +78,6 @@ body{
     margin: 16px 0;
     font-size: 16px;
     border-radius: 5px;
-
 
 
 }
@@ -96,6 +100,4 @@ body{
         width: 100%;
     }
 }
-
-
 

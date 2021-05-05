@@ -1,9 +1,6 @@
 *{
     margin: 0%;
-    padding: 0%;
-    
-    
-    
+    padding: 0%; 
 }
 
 #dolar{
@@ -67,6 +64,7 @@
 }
 
 
+
 /**iMAGEN DESPLEGABLE */
 .light-box{
 
@@ -83,6 +81,7 @@
     transition: transform 0.3s ease-in-out;
     z-index: 1100;
 }
+
 
 .light-box img{
     width: 75%;
@@ -175,9 +174,8 @@
 
 }
 
+
 @media screen and (max-width: 350px){
-
-
     .prod{
         height: 150px;
         object-fit: contain;
