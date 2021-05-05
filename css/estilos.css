@@ -9,7 +9,6 @@
 @import url(informaciones.css);
 @import url(banner_sucursal.css);
 @import url(barbers.css);
-@import url(estilos2.css);
 
 
 
@@ -24,7 +23,7 @@ body{
     background: rgb(17, 16, 16);
 
 
-
+}
 
 header{
     width: 100%;
@@ -34,6 +33,7 @@ header{
     position: fixed;
     z-index: 100;
 }
+
 h1{
     float: left;
 }
@@ -85,6 +85,5 @@ footer .footer-pie img{
 .redes a {
     text-decoration: none;
 }
-
 
 
