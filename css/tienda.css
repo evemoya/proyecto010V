@@ -6,6 +6,7 @@
 #dolar{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 #galeria-tienda .contenido h3, h4{
@@ -18,6 +19,8 @@
     font-size: 15px;
     
 }
+
+
 
 .contenido-tienda{
     /*border: solid green 2px;*/
@@ -185,4 +188,3 @@
 }
 
 /* FIN RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL  IPHONE SE5 */
-
