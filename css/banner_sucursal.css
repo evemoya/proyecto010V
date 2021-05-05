@@ -2,7 +2,6 @@
 
 #banner_sucu1 {
     padding-top: 50px;
-    background-attachment: fixed;
 }
 
 .contenedor_sucu1 /*img*/{
@@ -51,10 +50,12 @@
 
 .contenedor-info {
     width: 100%;
-    height: 600px;
+    /*height: 600px;*/
+    padding: 50px 0;
     color: white;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -141,11 +142,13 @@
     margin-bottom: 3px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .info-equipo img {
     width: 220px;
     height: 220px;
+    margin: 20px;
     border: 8px solid white;
     border-radius: 50%;
     transition: 1s;
@@ -156,4 +159,16 @@
     transition: all 1s;
 }
 
+@media (max-width: 427px){
+    .contenedor_sucu1 h2 {
+        width: 100%;
+        font-size: 60px;
+        padding: 10px 0;
+    }
+}
 
+@media (max-width: 1221px){
+    .direccion {
+        margin-top: 50px;
+    }
+}
